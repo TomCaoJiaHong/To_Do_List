@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./styles.css"
+import { func } from "prop-types"
 
 export default function App(){
   const [newItem, setNewItem] = useState("")
@@ -24,7 +25,16 @@ export default function App(){
         if(todo.id === id){
           return {...todo, completed}
         }
+        return todo
       })
+    })
+  }
+
+  //delete the input todo
+  function deleteTodo(id){
+    setTodos(currentTodos =>{
+      //if the id didn't match, then keep it; otherwise remove it
+      return currentTodos.filter(todo => todo.id !== id)
     })
   }
 
