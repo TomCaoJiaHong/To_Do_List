@@ -8,8 +8,6 @@ export function NewTodoForm(onSubmit){
         e.preventDefault()
     
         if(newItem === "") return
-        props.onSubmit(newItem)
-
         onSubmit(newItem)
         setNewItem("")
     }
