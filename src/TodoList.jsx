@@ -11,6 +11,8 @@ export function TodoList(todos){
                     completed={todo.completed} 
                     title={todo.title} 
                     key={todo.id}
+                    toggleTodo={toggleTodo}
+                    deleteTodo={deleteTodo}
                 />
             )
             })}
