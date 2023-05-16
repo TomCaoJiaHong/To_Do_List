@@ -6,10 +6,12 @@ export function TodoList(todos){
             {todos.length === 0 && "No Todos"}
             {todos.map(todo => {
             return (
-                <li key={todo.id}>
-                    <TodoItem id={todo.id} completed={todo.completed} title={todo.title} key={todo.id}/>
-                    
-                </li>
+                <TodoItem 
+                    id={todo.id} 
+                    completed={todo.completed} 
+                    title={todo.title} 
+                    key={todo.id}
+                />
             )
             })}
         </ul>
