@@ -46,5 +46,10 @@ The codebase is organized as follows:
 
 `styles.css`: This file contains the CSS styles for the Todo List app. It provides the visual styling for the components and layout of the webpage.
 
-## Credits
+## Author
 This project is created by [Jiahong Cao]. If you have any questions or feedback, feel free to contact me at [Jiahong.Cao@dal.ca].
+
+## Tutorial
+This project was built by following https://www.youtube.com/watch?v=Rh3tobg7hEo to Tutorial by WebDevSimplified.
+
+The tutorial covers the basics of building a Todo List app with React and provides step-by-step instructions on creating the functionality. It can be a helpful resource for understanding the code and learning React concepts.
